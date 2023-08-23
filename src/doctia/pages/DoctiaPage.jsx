@@ -1,4 +1,4 @@
-import { Grid, Typography } from "@mui/material";
+import { Grid, Typography, Link } from "@mui/material";
 import { UserQuestion } from "../components/UserQuestion";
 import { DoctiaAnswer } from "../components/DoctiaAnswer";
 import { Loader } from "../../ui";
@@ -22,6 +22,11 @@ export const DoctiaPage = () => {
         <Typography color="red" variant="h6" textAlign="center">
           **** ESTO ES UN EXPERIMENTO ****
         </Typography>
+        <Link href="/doctia-app/">
+          <Typography color="blue" variant="h5" textAlign="center">
+            INICIAR NUEVAMENTE
+          </Typography>
+        </Link>
       </Grid>
       {conversation.map((q) => (
         <UserQuestion key={q.id} currentQuestion={q} />
