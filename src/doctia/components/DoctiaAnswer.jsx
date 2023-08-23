@@ -1,4 +1,4 @@
-import { Grid, Typography, Modal, Box } from "@mui/material";
+import { Grid, Typography, Modal, Box, Link } from "@mui/material";
 import { useDispatch } from "react-redux";
 import { swapIsAnswered } from "../../store";
 import { useState } from "react";
@@ -33,6 +33,11 @@ export const DoctiaAnswer = ({ prediction = "TESTING", isOpen }) => {
         <Typography color="black" variant="h6">
           Creo que necesitas ayuda con: {prediction}
         </Typography>
+        <Link href="/doctia/">
+          <Typography color="blue" variant="h6">
+            Volver a intentar
+          </Typography>
+        </Link>
       </Box>
     </Modal>
   );
