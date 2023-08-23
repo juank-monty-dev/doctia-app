@@ -14,16 +14,16 @@ export const DoctiaPage = () => {
       <Grid
         container
         direction="column"
-        sx={{ pt: 2, pb: 3, pl: 2, pr: 2, backgroundColor: "primary.main" }}
+        sx={{ pt: 2, pb: 3, pl: 2, pr: 2, backgroundColor: "secondary.main" }}
       >
-        <Typography color="black" variant="h3" textAlign="center">
+        <Typography color="primary.main" variant="h3" textAlign="center">
           Hola! Soy Doct-IA
         </Typography>
         <Typography color="red" variant="h6" textAlign="center">
           **** ESTO ES UN EXPERIMENTO ****
         </Typography>
         <Link href="/doctia-app/">
-          <Typography color="blue" variant="h5" textAlign="center">
+          <Typography color="secondary.main" variant="p" textAlign="center"   sx={{ pt: 2, pb: 3, pl: 2, pr: 2, backgroundColor: "primary.main", margin: "auto" }}>
             INICIAR NUEVAMENTE
           </Typography>
         </Link>

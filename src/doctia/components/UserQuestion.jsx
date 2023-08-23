@@ -47,7 +47,7 @@ export const UserQuestion = ({ currentQuestion }) => {
           />
           <Button
             variant="contained"
-            color="success"
+            color="primary"
             type="submit"
             disabled={isAnswered}
           >

@@ -11,7 +11,7 @@ export const doctiaSlice = createSlice({
     conversation: [
       {
         id: "start-q",
-        question: "En que puedo ayudarte hoy?",
+        question: "En que puedo ayudarte hoy? / Cuéntame tus sintomas si los tienes?",
         prediction: "",
         isAnswered: false,
         apiUrl: "/ans1",
