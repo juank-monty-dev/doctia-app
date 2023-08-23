@@ -33,7 +33,7 @@ export const DoctiaAnswer = ({ prediction = "TESTING", isOpen }) => {
         <Typography color="black" variant="h6">
           Creo que necesitas ayuda con: {prediction}
         </Typography>
-        <Link href="/doctia/">
+        <Link href="/doctia-app/">
           <Typography color="blue" variant="h6">
             Volver a intentar
           </Typography>
