@@ -8,7 +8,7 @@ const style = {
   top: "50%",
   left: "50%",
   transform: "translate(-50%, -50%)",
-  width: 400,
+  width: "90vw",
   bgcolor: "background.paper",
   border: "2px solid #000",
   boxShadow: 24,
@@ -31,7 +31,7 @@ export const DoctiaAnswer = ({ prediction = "TESTING", isOpen }) => {
     >
       <Box sx={style}>
         <Typography color="black" variant="h6">
-          Creo que necesitas ayuda con: {prediction}
+          {prediction}
         </Typography>
         <Link href="/doctia-app/">
           <Typography color="blue" variant="h6">
