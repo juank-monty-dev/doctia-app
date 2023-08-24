@@ -57,7 +57,7 @@ export const UserQuestion = ({ currentQuestion }) => {
       </form>}
       {!!isAnswered && (
         <Typography color="black" variant="h6">
-          Creo que necesitas ayuda con: {prediction}
+          {prediction}
         </Typography>
       )}
     </Grid>
